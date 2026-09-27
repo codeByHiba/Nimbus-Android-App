@@ -1,0 +1,18 @@
+<!-- Nimbus mark: navy disc with an amber circle and an overlapping white circle,
+     matching the original logo used in the web version. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="52dp"
+    android:height="52dp"
+    android:viewportWidth="52"
+    android:viewportHeight="52">
+    <path
+        android:fillColor="#12213F"
+        android:pathData="M26,26 m -25,0 a25,25 0 1,0 50,0 a25,25 0 1,0 -50,0" />
+    <path
+        android:fillColor="#F2A93B"
+        android:pathData="M20,22 m -9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.92"
+        android:pathData="M31,30 m -12,0 a12,12 0 1,0 24,0 a12,12 0 1,0 -24,0" />
+</vector>

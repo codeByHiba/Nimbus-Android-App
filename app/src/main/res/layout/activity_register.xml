@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="26dp">
+
+        <!-- Brand header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="22dp">
+
+            <ImageView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:src="@drawable/ic_logo"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/app_name"
+                android:textColor="@color/text_primary"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tagline"
+                android:textColor="@color/text_sub"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_account_title"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="18dp"
+            android:text="@string/create_account_subtitle"
+            android:textColor="@color/text_sub"
+            android:textSize="14sp" />
+
+        <!-- Success / error banner -->
+        <TextView
+            android:id="@+id/regBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_banner"
+            android:padding="12dp"
+            android:textSize="13sp"
+            android:visibility="gone"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Full Name -->
+        <TextView style="@style/FieldLabel" android:text="@string/label_full_name" />
+        <EditText
+            android:id="@+id/etName"
+            style="@style/FieldInput"
+            android:hint="@string/hint_full_name"
+            android:inputType="textPersonName" />
+        <TextView android:id="@+id/errName" style="@style/FieldError" />
+
+        <!-- Email -->
+        <TextView style="@style/FieldLabel" android:text="@string/label_email" />
+        <EditText
+            android:id="@+id/etEmail"
+            style="@style/FieldInput"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress" />
+        <TextView android:id="@+id/errEmail" style="@style/FieldError" />
+
+        <!-- Phone -->
+        <TextView style="@style/FieldLabel" android:text="@string/label_phone" />
+        <EditText
+            android:id="@+id/etPhone"
+            style="@style/FieldInput"
+            android:hint="@string/hint_phone"
+            android:inputType="phone" />
+        <TextView android:id="@+id/errPhone" style="@style/FieldError" />
+
+        <!-- Password -->
+        <TextView style="@style/FieldLabel" android:text="@string/label_password" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/etPassword"
+                style="@style/FieldInput"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:paddingEnd="46dp" />
+            <ImageButton
+                android:id="@+id/btnTogglePassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_eye_open"
+                android:contentDescription="Show or hide password" />
+        </RelativeLayout>
+        <TextView android:id="@+id/errPassword" style="@style/FieldError" />
+
+        <!-- Confirm Password -->
+        <TextView style="@style/FieldLabel" android:text="@string/label_confirm_password" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/etConfirmPassword"
+                style="@style/FieldInput"
+                android:hint="@string/hint_confirm_password"
+                android:inputType="textPassword"
+                android:paddingEnd="46dp" />
+            <ImageButton
+                android:id="@+id/btnToggleConfirmPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_eye_open"
+                android:contentDescription="Show or hide password" />
+        </RelativeLayout>
+        <TextView android:id="@+id/errConfirmPassword" style="@style/FieldError" />
+
+        <Button
+            android:id="@+id/btnCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_button_primary"
+            android:text="@string/btn_create_account"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:stateListAnimator="@null" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/already_have_account"
+                android:textColor="@color/text_sub"
+                android:textSize="13.5sp" />
+
+            <TextView
+                android:id="@+id/linkLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="@string/login_link"
+                android:textColor="@color/navy_2"
+                android:textSize="13.5sp"
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nimbus</string>
+    <string name="tagline">Plan smarter, every day</string>
+
+    <!-- Register screen -->
+    <string name="create_account_title">Create your account</string>
+    <string name="create_account_subtitle">It only takes a minute to get started</string>
+    <string name="label_full_name">Full Name</string>
+    <string name="hint_full_name">Jordan Ellis</string>
+    <string name="label_email">Email Address</string>
+    <string name="hint_email">you@example.com</string>
+    <string name="label_phone">Phone Number</string>
+    <string name="hint_phone">+1 555 123 4567</string>
+    <string name="label_password">Password</string>
+    <string name="hint_password">At least 8 characters</string>
+    <string name="label_confirm_password">Confirm Password</string>
+    <string name="hint_confirm_password">Re-enter your password</string>
+    <string name="btn_create_account">Create Account</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="login_link">Login</string>
+
+    <!-- Login screen -->
+    <string name="login_title">Log in</string>
+    <string name="login_subtitle">Enter your details to continue</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="btn_login">Login</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="create_account_link">Create Account</string>
+    <string name="welcome_back">Welcome back</string>
+
+    <!-- Home / Dashboard -->
+    <string name="tasks_today">Tasks today</string>
+    <string name="streak">Streak</string>
+    <string name="account_label">Account</string>
+    <string name="logout">Log Out</string>
+
+    <!-- Validation messages -->
+    <string name="err_name_required">Please enter your full name.</string>
+    <string name="err_email_invalid">Enter a valid email address.</string>
+    <string name="err_phone_invalid">Enter a valid phone number (7-15 digits).</string>
+    <string name="err_password_short">Password must be at least 8 characters.</string>
+    <string name="err_password_mismatch">Passwords do not match.</string>
+    <string name="err_account_exists">An account with this email already exists.</string>
+    <string name="success_account_created">Account created! Redirecting to login…</string>
+    <string name="err_invalid_login">Incorrect email or password.</string>
+    <string name="msg_forgot_password">Password reset link would be emailed to you (demo).</string>
+</resources>

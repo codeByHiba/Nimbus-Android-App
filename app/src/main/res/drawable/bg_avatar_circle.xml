@@ -1,0 +1,8 @@
+<!-- Amber gradient circle behind the user's initial on the dashboard -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <gradient
+        android:startColor="@color/amber"
+        android:endColor="@color/amber_dark"
+        android:angle="135" />
+</shape>

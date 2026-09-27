@@ -1,0 +1,17 @@
+<!-- Password "visible" icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="22dp"
+    android:height="22dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#6B7385"
+        android:strokeWidth="1.8"
+        android:pathData="M1,12C1,12 5,5 12,5C19,5 23,12 23,12C23,12 19,19 12,19C5,19 1,12 1,12Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#6B7385"
+        android:strokeWidth="1.8"
+        android:pathData="M12,9 m -3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+</vector>

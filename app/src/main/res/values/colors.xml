@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Nimbus palette (kept identical to the original web design) -->
+    <color name="navy">#12213F</color>
+    <color name="navy_2">#1B2E52</color>
+    <color name="amber">#F2A93B</color>
+    <color name="amber_dark">#D98F1E</color>
+    <color name="bg">#F4F6FA</color>
+    <color name="card">#FFFFFF</color>
+    <color name="text_primary">#151B2B</color>
+    <color name="text_sub">#6B7385</color>
+    <color name="line">#E4E8F0</color>
+    <color name="danger">#E1503A</color>
+    <color name="ok">#2FAE7E</color>
+    <color name="ok_bg">#1A2FAE7E</color>
+    <color name="danger_bg">#1AE1503A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,9 @@
+<!-- Amber gradient button used for the "Login" primary action -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:startColor="@color/amber"
+        android:endColor="@color/amber_dark"
+        android:angle="135" />
+    <corners android:radius="14dp" />
+</shape>
